@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f5;
+    color: #333;
+}
+
+/* Styling for the container */
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Basic styling for the upload form */
+form {
+    margin-top: 30px;
+}
+
+/* Style adjustments for input and upload fields */
+input[type="file"] {
+    border: 2px solid #007bff;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #fff;
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Adding some space around the form elements */
+form input {
+    margin: 10px 0;
+}
+
+/* Styling for the heading */
+h2 {
+    color: #333;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
